@@ -7,7 +7,8 @@
         <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/drawable/ic_brain.xml" value="0.234" />
         <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/layout/fragment_choose_level.xml" value="0.36666666666666664" />
-        <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/layout/fragment_game_finished.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/layout/fragment_game.xml" value="0.36666666666666664" />
+        <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/layout/fragment_game_finished.xml" value="0.1" />
         <entry key="..\:/Android/Courses/udemy/Composition/app/src/main/res/layout/fragment_welcome.xml" value="0.1" />
       </map>
     </option>

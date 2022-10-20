@@ -25,8 +25,8 @@ class GameViewModel(
     private val generateQuestionUseCase = GenerateQuestionUseCase(repository)
     private val getGameSettingsUseCase = GetGameSettingsUseCase(repository)
 
-    private val _formattedTimer = MutableLiveData<String>()
-    val formattedTimer: LiveData<String> get() = _formattedTimer
+    private val _formattedTime = MutableLiveData<String>()
+    val formattedTime: LiveData<String> get() = _formattedTime
 
     private val _question = MutableLiveData<Question>()
     val question: LiveData<Question> get() = _question
@@ -105,7 +105,7 @@ class GameViewModel(
             MILLIS_IN_SECONDS
         ) {
             override fun onTick(millisUntilFinished: Long) {
-                _formattedTimer.value = formatTime(millisUntilFinished)
+                _formattedTime.value = formatTime(millisUntilFinished)
             }
 
             override fun onFinish() {
